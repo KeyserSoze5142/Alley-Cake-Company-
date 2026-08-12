@@ -1,0 +1,29 @@
+# Sarah's Alley Cake Co. — robots.txt
+# Allow all search engines AND AI/answer-engine crawlers (AEO/GEO)
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI answer engines (GEO — Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://www.alleycakecompany.com/sitemap.xml
